@@ -211,7 +211,7 @@ export const Article = () => {
           </div>
           <div className='form__btn'>
             <ButtonFormTask type='submit'>
-              {!isEdit ? 'Create' : 'Update'}
+              {!isEdit ? 'Criar' : 'Atualizar'}
             </ButtonFormTask>
             <ButtonFormTask
               style={!isEdit ? { display: 'none' } : { display: 'block' }}
@@ -219,7 +219,7 @@ export const Article = () => {
               type='button'
               onClick={handleOnClickCancel}
             >
-              Cancel
+              Cancelar
             </ButtonFormTask>
           </div>
         </FormTask>
